@@ -6,8 +6,7 @@ Note: When you turn in an assignment to be graded in this class, you are making 
 In this programming project you will write a program to read text data from the BRIDGES API, implement a Map (Dictionary) using two different data structures (a binary search tree and a hash table) using BRIDGES elements, and visualize them with BRIDGES. Additionally, you will examine the efficiency of these two approaches. To start the project, you’ll analyze a short poem to determine which words are used most often, then analyze the entire Shakespeare work to explore algorithmic efficiency. The main assignment is to count how many times each word appears in a single poem. This will be accomplished using a Dictionary implemented as a Binary Search Tree and as a Hash Map.
 Counting word appearances using a Dictionary 
 A Dictionary is used to store and retrieve (key, value) pairs. In this assignment they will be useful to count how many times a particular word appears in a literary work. The keys are going to be words. And the value associated with that key is going to be how many times that word appears. Counting the words then becomes:
-
-	```Java
+```Java
 	Algorithm:	
 		Dictionary d
 
@@ -18,7 +17,7 @@ A Dictionary is used to store and retrieve (key, value) pairs. In this assignmen
     			d.insert (w, 1)
   		else
     			entry.value += 1
-		```
+```
     
 1.	Clone the GitHub repository, open your scaffolded code, plug in your credentials, review the Dictionary interface, Dictionary.java, and the implementation of the StandardDictionary.java class that uses a Java HashMap to store the key-value pairs.
 2.	Run the scaffold code by executing the main method in the Project 6 class that uses the StandardDictionary to read and separate the words in the text.
