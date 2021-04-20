@@ -44,7 +44,7 @@ public class Project6 {
 	public static void main(String[] args){
 
 		// Initialize a Bridges connection with your credentials
-		Bridges bridges = new Bridges(8, "DebMDuke", "1043584906762");
+		Bridges bridges = new Bridges(8, "Your User ID", "Your API Key");
 
 		// Set an assignment title
 		bridges.setTitle("Project6");
