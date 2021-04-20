@@ -7,21 +7,17 @@ In this programming project you will write a program to read text data from the 
 Counting word appearances using a Dictionary 
 A Dictionary is used to store and retrieve (key, value) pairs. In this assignment they will be useful to count how many times a particular word appears in a literary work. The keys are going to be words. And the value associated with that key is going to be how many times that word appears. Counting the words then becomes:
 
-	```Algorithm:
-	
-Dictionary d
+	```Algorithm:	
+		Dictionary d
 
-for each word w in document
-
-  entry = d.get(w)
-  
-  if (entry is NULL)
-  
-    d.insert (w, 1)
-    
-  else
-  
-    entry.value += 1```
+		for each word w in document
+  			entry = d.get(w)
+ 
+  		if (entry is NULL)
+    			d.insert (w, 1)
+  		else
+    			entry.value += 1
+		```
     
 1.	Clone the GitHub repository, open your scaffolded code, plug in your credentials, review the Dictionary interface, Dictionary.java, and the implementation of the StandardDictionary.java class that uses a Java HashMap to store the key-value pairs.
 2.	Run the scaffold code by executing the main method in the Project 6 class that uses the StandardDictionary to read and separate the words in the text.
