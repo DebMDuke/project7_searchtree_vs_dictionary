@@ -16,7 +16,7 @@ import java.util.Iterator;
 import java.lang.Comparable;
 import java.io.IOException;
 
-public class MyHashTable<K, V> implements Dictionary< K, V>
+public class MyHashTable<K, V> 
 {
 	private MapNode[] table;
 	private int capacity;
@@ -76,13 +76,11 @@ public class MyHashTable<K, V> implements Dictionary< K, V>
 	}
 
 	//TODO:  
-	@Override
 	public V get(K key) {
 		return null;
 	}
 
 	//TODO
-	@Override
 	public void set(K key, V value) {
 
 	}
