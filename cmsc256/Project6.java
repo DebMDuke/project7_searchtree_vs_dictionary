@@ -48,7 +48,6 @@ public class Project6 {
 
 		// Set an assignment title
 		bridges.setTitle("Project6");
-		bridges.setDescription("MinHeap represented as a Binary Tree.");
 
 		try {
 			List<Shakespeare> shakespeare_list = bridges.getDataSource().getShakespeareData("poems");
