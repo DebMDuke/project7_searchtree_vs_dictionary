@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.AbstractMap;
 import java.util.Stack;
 
-public class MySearchTree<K extends Comparable<? super K>, V> implements Dictionary< K, V> {
+public class MySearchTree<K extends Comparable<? super K>, V>  {
 	private BSTElement<K, V> root;
 	
 	public MySearchTree(){
@@ -42,13 +42,11 @@ public class MySearchTree<K extends Comparable<? super K>, V> implements Diction
 	}
 
 	//TODO: 
-	@Override
 	public V get(K k) {
 		return null;
 	}
 
 	//TODO: 
-	@Override
 	public void set(K k, V e) {
 
 	}
