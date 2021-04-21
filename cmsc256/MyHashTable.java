@@ -161,7 +161,6 @@ public class MyHashTable<K, V>
 		bridgesInstance.setDataStructure(vis);
 		bridgesInstance.visualize();
 	}
-}
 
 class MapNode<K, V> {
 	 private K key;
@@ -197,4 +196,5 @@ class MapNode<K, V> {
 	public void setNext(MapNode next) {
 		this.next = next;
 	}
+    }
 }
