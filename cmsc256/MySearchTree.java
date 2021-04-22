@@ -11,7 +11,9 @@ import bridges.connect.Bridges;
 import java.lang.Comparable;
 import java.security.Key;
 import java.util.Iterator;
-
+import java.util.Map;
+import java.util.AbstractMap;
+import java.util.Stack;
 
 public class MySearchTree<K extends Comparable<? super K>, V>  {
 	private BSTElement<K, V> root;
@@ -21,7 +23,7 @@ public class MySearchTree<K extends Comparable<? super K>, V>  {
 	}
 
 	///TODO: Implement iterator logic for MySearchTree
-	class SearchTreeIterator implements Iterator<BSTElement<K, V>>  {
+	class SearchTreeIterator implements Iterator<Map.Entry<K, V>>  {
 
 		SearchTreeIterator(BSTElement<K, V> node) {
 		}
@@ -30,12 +32,12 @@ public class MySearchTree<K extends Comparable<? super K>, V>  {
 			return false;
 		}
 
-		public BSTElement<K, V> next() {
-			return  null;
+		public Map.Entry<K, V> next() {
+			return  new AbstractMap.SimpleEntry<K, V> (null, null);
 		}
 	}
 
-	public Iterator<BSTElement<K, V>> iterator() {
+	public Iterator<Map.Entry<K, V>> iterator() {
 		return new SearchTreeIterator(root);
 	}
 
