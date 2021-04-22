@@ -37,7 +37,7 @@ public class MySearchTree<K extends Comparable<? super K>, V>  {
 		}
 	}
 
-	public Iterator<Map.Entry<K, V>> iterator() {
+	public Iterator<BSTElement<K, V>> iterator() {
 		return new SearchTreeIterator(root);
 	}
 
