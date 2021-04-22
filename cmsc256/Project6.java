@@ -74,10 +74,13 @@ public class Project6 {
 			for (String word : wordlist) {
 
 			}
-
 		
 			for (Map.Entry<String,Integer> e : my_dictionary) 
 				System.out.println(e.getKey() + " " + e.getValue());
+			
+			//TODO: uncomment after completing step 2 
+			//		my_map.visualize(bridges); 
+			//		my_tree.visualize(bridges);
 		}
 		catch(Exception ex) {
 			System.out.println("Unable to access BRIDGES");
