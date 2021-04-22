@@ -75,9 +75,7 @@ public class Project6 {
 
 			}
 
-			//TODO: uncomment after completing step 2 
-			//my_dictionary.visualize(bridges);  
-
+		
 			for (Map.Entry<String,Integer> e : my_dictionary) 
 				System.out.println(e.getKey() + " " + e.getValue());
 		}
