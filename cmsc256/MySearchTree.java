@@ -11,9 +11,7 @@ import bridges.connect.Bridges;
 import java.lang.Comparable;
 import java.security.Key;
 import java.util.Iterator;
-import java.util.Map;
-import java.util.AbstractMap;
-import java.util.Stack;
+
 
 public class MySearchTree<K extends Comparable<? super K>, V>  {
 	private BSTElement<K, V> root;
