@@ -16,7 +16,7 @@ import java.util.Iterator;
 import java.lang.Comparable;
 import java.io.IOException;
 
-public class MyHashTable<K, V> 
+public class MyHashTable<K, V> implements java.lang.Iterable<Map.Entry<K, V>>
 {
 	private MapNode[] table;
 	private int capacity;
