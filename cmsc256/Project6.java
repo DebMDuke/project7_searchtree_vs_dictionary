@@ -66,8 +66,8 @@ public class Project6 {
 
 
 			StandardDictionary<String,Integer> my_dictionary = new StandardDictionary<String, Integer>();
-			//HashTableDictionary<String,Integer> my_map = new HashTableDictionary<String, Integer>();
-			//SearchTreeDictionary<String, Integer> my_tree = new SearchTreeDictionary<String, Integer>();
+			//MyHashTable<String,Integer> my_map = new MyHashTable<String, Integer>();
+			//MySearchTree<String, Integer> my_tree = new MySearchTree<String, Integer>();
 
 
 			//TODO: 2.Use StandardDictionary to compute the number of occurrences of each word.
