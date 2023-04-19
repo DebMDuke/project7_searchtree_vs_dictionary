@@ -1,7 +1,7 @@
-# project6spring2021
-Starter files for CMSC 256 Project 6
+# project7
+Starter files for CMSC 256 Project 7
 
-# Programming Project 6 – Words in Literature
+# Programming Project 7
 Note: When you turn in an assignment to be graded in this class, you are making the claim that you neither gave nor received assistance on the work you turned in (except, of course, assistance from your instructor). Any assistance from other sources, including the internet, is an honor code violation.
 In this programming project you will write a program to read text data from the BRIDGES API, implement a Map (Dictionary) using two different data structures (a binary search tree and a hash table) using BRIDGES elements, and visualize them with BRIDGES. Additionally, you will examine the efficiency of these two approaches. To start the project, you’ll analyze a short poem to determine which words are used most often, then analyze the entire Shakespeare work to explore algorithmic efficiency. The main assignment is to count how many times each word appears in a single poem. This will be accomplished using a Dictionary implemented as a Binary Search Tree and as a Hash Map.
 Counting word appearances using a Dictionary 
