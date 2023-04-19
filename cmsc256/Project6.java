@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 
-public class Project6 {
+public class Project7 {
 
 	// Splits string into an array of words
 	// Tutorial on regular expressions: 
@@ -44,10 +44,10 @@ public class Project6 {
 	public static void main(String[] args){
 
 		// Initialize a Bridges connection with your credentials
-		Bridges bridges = new Bridges(8, "Your User ID", "Your API Key");
+		Bridges bridges = new Bridges(7, "Your User ID", "Your API Key");
 
 		// Set an assignment title
-		bridges.setTitle("Project6");
+		bridges.setTitle("Project7");
 
 		try {
 			List<Shakespeare> shakespeare_list = bridges.getDataSource().getShakespeareData("poems");
