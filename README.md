@@ -27,5 +27,5 @@ A Dictionary is used to store and retrieve (key, value) pairs. In this assignmen
 6.	Implement the Dictionary interface by completing the implementation of the MyHashTable.java class using a hash table.
 7.	Use BRIDGES SymbolCollection to generate a visualization of the hash table.
 8.	Use the complete works of Shakespeare to observe the performance difference between the hash table and the binary search tree implementation of the dictionary.
-9.	Submit the following files to Gradescope: **Project6.java**, **MyHashTable.java**, and **MySearchTree.java**
+9.	Submit the following files to Gradescope: **Project7.java**, **MyHashTable.java**, and **MySearchTree.java**
 
